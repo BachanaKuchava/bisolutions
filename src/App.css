@@ -135,8 +135,8 @@ ul,
 }
 
 .btn.btn-primary {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #12556b;
+  border-color: #12556b;
   padding: 13px 35px;
   font-size: 14px;
   line-height: 18px;
@@ -149,8 +149,8 @@ ul,
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
   background: #fff;
-  border-color: #f64b4b;
-  color: #f64b4b;
+  border-color: #12556b;
+  color: #12556b;
 }
 
 .btn.btn-primary .fas {
@@ -284,7 +284,7 @@ textarea {
   width: 35px;
   height: 35px;
   background: #fff;
-  color: #f64b4b;
+  color: #12556b;
   border-radius: 50%;
   display: block;
   text-align: center;
@@ -294,8 +294,11 @@ textarea {
 }
 
 .socials a:hover {
-  background: #f64b4b;
+  background-color: #12556b !important;
+  opacity: 80%;
   color: #fff;
+  transform: scale(1.05);
+
 }
 
 .socials .fab {
@@ -313,10 +316,11 @@ textarea {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #f64b4b;
+  background: #12556b;
   border-radius: 3px;
   color: #fff;
   border: 0;
+  cursor: pointer;
 }
 
 .go-top:before {
@@ -334,22 +338,26 @@ textarea {
   margin: -3px 0 0 -6px;
 }
 
+.logo {
+  width: 150px;
+}
+
 .go-top:hover {
-  background: #f41a1a;
+  background: #12556b;
 }
 
 .pagination>li.active a {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #12556b;
+  border-color: #12556b;
 }
 
 .pagination>li.active a:hover {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #12556b;
+  border-color: #12556b;
 }
 
 .pagination>li>a {
-  color: #f64b4b;
+  color: #12556b;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   padding: 6px 15px 12px;
@@ -425,7 +433,7 @@ textarea {
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #f64b4b;
+  color: #12556b;
 }
 
 #header .navbar-collapse a:hover:before,
@@ -437,7 +445,7 @@ textarea {
 
 #header .navbar-collapse a:before {
   content: '';
-  background: #f64b4b;
+  background: #12556b;
   height: 1px;
   position: absolute;
   bottom: 7px;
@@ -449,7 +457,7 @@ textarea {
 }
 
 #footer {
-  background: #f64b4b;
+  background: #12556b;
   padding: 50px 0;
   color: #fff;
   text-align: center;
@@ -518,7 +526,7 @@ textarea {
   width: 60px;
   height: 60px;
   font-size: 26px;
-  color: #f64b4b;
+  color: #12556b;
   margin: 0 0 20px;
   display: inline-block;
   vertical-align: middle;
@@ -526,6 +534,7 @@ textarea {
   text-align: center;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
+  
 }
 
 .services-block .icon .fas {
@@ -552,7 +561,7 @@ textarea {
 }
 
 .services-block .holder:hover .icon {
-  box-shadow: inset 0 0 0 30px #f64b4b;
+  box-shadow: inset 0 0 0 30px #12556b;
   color: #fff;
   font-size: 18px;
 }
@@ -584,7 +593,7 @@ textarea {
 
 .works-block .portfoliolist>div h3 {
   margin: 0 0 5px;
-  color: #f64b4b;
+  color: white;
   font-size: 16px;
 }
 
@@ -620,8 +629,8 @@ textarea {
 }
 
 .works-block .pagination .page-item.active .page-link {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #12556b;
+  border-color: #12556b;
 }
 
 .works-block .pagination .page-item .page-link {
@@ -783,7 +792,7 @@ textarea {
 
 .pricing-block div[class*="col"]:nth-child(2) .heading {
   padding: 30px 20px;
-  background: #f64b4b;
+  background: #12556b;
   color: #fff;
 }
 
@@ -874,7 +883,7 @@ textarea {
 
 .blog-block .card-title {
   margin: 0 0 10px;
-  color: #f64b4b;
+  color: #12556b;
   font-size: 22px;
 }
 
@@ -949,7 +958,7 @@ textarea {
   display: block;
   font-size: 40px;
   margin: 0 0 15px;
-  color: #f64b4b;
+  color: #12556b;
 }
 
 @media only screen and (min-width: 1025px) {

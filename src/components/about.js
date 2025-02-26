@@ -25,7 +25,10 @@ function AppAbout() {
           <Col sm={6}>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
-            <div className='progress-block'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
+
+            {/* <div className='progress-block'>
               <h4>HTML / CSS / Javascript</h4>
               <ProgressBar now={html} label={`${html}%`} />
             </div>
@@ -36,7 +39,7 @@ function AppAbout() {
             <div className='progress-block'>
               <h4>Photoshop</h4>
               <ProgressBar now={photoshop} label={`${photoshop}%`} />
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>
