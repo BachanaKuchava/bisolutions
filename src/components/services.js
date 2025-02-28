@@ -5,39 +5,39 @@ import Col from 'react-bootstrap/Col';
 const servicesData = [
   {
     id: 1,
-    icon: 'fas fa-clone',
-    title: 'Responsive Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fa fa-rocket',
+    title: 'Web Development',
+    description: 'We craft high-performance, scalable, and visually stunning websites tailored to your business needs. From e-commerce platforms to corporate websites, we ensure your online presence stands out.'
   },
   {
     id: 2,
-    icon: 'fas fa-snowflake',
-    title: 'Creative Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fa fa-mobile',
+    title: ' Mobile App Development',
+    description: 'Turn your ideas into powerful mobile applications. We develop user-friendly, iOS and Android apps that deliver seamless experiences and high performance.'
   },
   {
     id: 3,
-    icon: 'fas fa-plug',
-    title: 'SEO Optimized',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fa fa-gamepad',
+    title: ' VR & AR Solutions',
+    description: 'Step into the future of digital interaction with our VR games, virtual tours, and AR experiences. We create immersive environments for entertainment, education, and business applications.'
   },
   {
     id: 4,
-    icon: 'fas fa-desktop',
-    title: 'Retina Ready',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fa fa-microchip',
+    title: ' Tech Solutions & Integrations',
+    description: 'Need a custom system, automation, or API integration? We provide tailor-made tech solutions, helping businesses optimize their workflow and enhance efficiency.'
   },
   {
     id: 5,
-    icon: 'fas fa-trophy',
-    title: 'Brower Compatibility',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fa fa-american-sign-language-interpreting',
+    title: 'Startup & Product Development',
+    description: 'Have a brilliant startup idea but don’t know where to start? We provide end-to-end development, strategy, and tech support to turn your concept into a fully functional product.'
   },
   {
     id: 6,
-    icon: 'fas fa-life-ring',
-    title: 'Customer Support',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    icon: 'fa fa-database',
+    title: ' IT Consulting & Support',
+    description: 'Our tech experts analyze, advise, and optimize your digital infrastructure, ensuring your business stays ahead of the competition. We also offer ongoing maintenance and support for existing projects.'
   }
 ]
 

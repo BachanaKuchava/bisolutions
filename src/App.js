@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AppHeader from './components/header';
 import AppHero from './components/hero';
 import AppAbout from './components/about';
@@ -13,27 +13,32 @@ import AppBlog from './components/blog';
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
 import StartUps from './pages/StartUps';
+import Layout from './pages/layout/Layout';
 
 function App() {
   return (
+    <BrowserRouter>
+    
+    
     <div className="App">
       <header id='header'>
         <AppHeader />
       </header>
       <main>
-        <AppHero />
-        <AppAbout />
-        <AppServices />
-        <AppWorks />
-        <AppPricing />
-        <AppBlog />
-        <AppContact />
+        <Routes>
+
+          <Route path='/' element={<Layout />} />
+          <Route path='startup' element={<StartUps />} />
+         
         {/* <StartUps/> */}
+        </Routes>
       </main>
       <footer id="footer">
         <AppFooter />
       </footer>
     </div>
+
+    </BrowserRouter>
   );
 }
 

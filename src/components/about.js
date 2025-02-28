@@ -4,7 +4,9 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
+
 import img1 from '../assets/images/img1.jpg';
+import BISOLUTIONS from '../assets/images/BISOLUTIONS1.png';
 
 function AppAbout() {
   const html = 80;
@@ -16,18 +18,18 @@ function AppAbout() {
       <Container fluid>
         <div className="title-holder">
           <h2>About Us</h2>
-          <div className="subtitle">learn more about us</div>
+          <div className="subtitle">Innovation, Expertise, and Limitless Possibilities</div>
         </div>
         <Row>
           <Col sm={6}>
-            <Image src={img1} />
+            <Image src={BISOLUTIONS} className='aboutUS-img'/>
           </Col>
           <Col sm={6}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
+          <p className='aboutUS-p'>
+          At BI Solutions, we don’t just develop software we build the future. our company is a powerhouse of innovation, offering cutting-edge solutions across the tech industry. From startups to large enterprises, we help businesses bring ideas to life with custom-built websites, mobile apps, VR games, immersive virtual tours, and much more.
 
+With a fully assembled team of industry experts, we’ve successfully delivered numerous projects, setting new standards in design, development, and technology integration. Whether you need a brand-new digital solution or improvements to an existing project, BI Solutions is your ultimate tech partner.
+</p>
             {/* <div className='progress-block'>
               <h4>HTML / CSS / Javascript</h4>
               <ProgressBar now={html} label={`${html}%`} />

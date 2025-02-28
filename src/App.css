@@ -14,6 +14,14 @@ html {
   padding: 0;
 }
 
+.aboutUS-img {
+  border-radius: 16px;
+}
+
+.aboutUS-p {
+  font-size: 20px;
+}
+
 body {
   color: #333;
   background: #fff;
