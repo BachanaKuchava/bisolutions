@@ -17,7 +17,7 @@ import StartUps from './pages/StartUps';
 function App() {
   return (
     <div className="App">
-      {/* <header id='header'>
+      <header id='header'>
         <AppHeader />
       </header>
       <main>
@@ -28,11 +28,11 @@ function App() {
         <AppPricing />
         <AppBlog />
         <AppContact />
+        {/* <StartUps/> */}
       </main>
       <footer id="footer">
         <AppFooter />
-      </footer> */}
-      <StartUps />
+      </footer>
     </div>
   );
 }
