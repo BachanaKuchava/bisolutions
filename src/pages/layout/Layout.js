@@ -13,7 +13,7 @@ function Layout() {
       <AppHero />
       <AppAbout />
       <AppServices />
-      <AppWorks />
+      {/* <AppWorks /> */}
       <AppPricing />
       <AppBlog />
       <AppContact />

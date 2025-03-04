@@ -22,7 +22,7 @@ function AppHeader() {
             <Nav.Link href="#pricing">Pricing</Nav.Link>
             <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Link to='startup'><Button variant="outline-primary"  style={{ borderRadius: '50px' }}  size="sm">Danger</Button></Link>
+            {/* <Link to='startup'><Button variant="outline-primary"  style={{ borderRadius: '50px' }}  size="sm">Danger</Button></Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
