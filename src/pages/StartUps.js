@@ -6,17 +6,19 @@ import mallOne from "../assets/images/vr1.jpg";
 import mallTwo from "../assets/images/vr4.jpg";
 import mallThree from "../assets/images/vr5.jpg";
 import mallFour from "../assets/images/vr3.jpg";
+import StartupsSlider from "../components/startupsSlider";
 function StartUps() {
   return (
     <>
-      <AppHero />
+      {/* <AppHero /> */}
+      <StartupsSlider />
       <div className="startUp-block">
         <Container className="py-5">
           <Row className="align-items-center mt-5">
             {/* Text Column */}
             <Col md={7}>
               <h2>
-                <a href="">VR MALL</a> The future of shopping is here
+                <a href="/VRMALLstartup.rar" download>VR MALL</a> The future of shopping is here
               </h2>
               <div>
                 <p>
@@ -65,7 +67,7 @@ function StartUps() {
             {/* Text Column */}
             <Col md={7}>
               <h2>
-                <a href="#checkmate">VR MALL </a>for Every Segment
+              <a href="/VRMALLstartup.rar" download>VR MALL </a>for Every Segment
               </h2>
               <div>
                 <p>
@@ -85,7 +87,7 @@ function StartUps() {
             {/* Text Column */}
             <Col md={7}>
               <h2>
-               <a href="#checkmate">VR MALL</a> is First to Market
+              <a href="/VRMALLstartup.rar" download>VR MALL</a> is First to Market
               </h2>
               <div>
                 <p>
@@ -128,7 +130,7 @@ function StartUps() {
             {/* Text Column */}
             <Col md={7}>
               <h2>
-               <a href="#checkmate">VR MALL</a> Unprecedented Advertising 
+              <a href="/VRMALLstartup.rar" download>VR MALL</a> Unprecedented Advertising 
                Opportunities
               </h2>
               <div>
@@ -144,6 +146,7 @@ function StartUps() {
                 </p>
                 
               </div>
+              <a href="/VRMALLstartup.rar" className="text-danger fs-3 download" download>See full Information About VR MALL</a>
             </Col>
 
        

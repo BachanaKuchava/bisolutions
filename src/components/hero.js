@@ -5,7 +5,7 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/comingsoon.png'),
-    title: 'The perfect design for your website',
+    title: 'Check our new startup VR-MALL',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
     link: 'startup'
   },
@@ -17,7 +17,7 @@ var heroData = [
   {
     id: 3,
     image: require('../assets/images/VrMALL.png'),
-    title: 'Enjoy the Difference',
+    title: 'startUp of the future',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
     link: 'startup'
   }

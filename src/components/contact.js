@@ -33,11 +33,7 @@ function AppContact() {
             <Button type="submit">Submit</Button>
           </div>
         </Form>
-      </Container>
-      <div className='google-map'>
-        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d744.4658044457617!2d44.767880757551495!3d41.72347032732096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d8b5d58817%3A0x5411de2d187da455!2s10%20Davit%20Gamrekeli%20St%2C%20T&#39;bilisi%200194!5e0!3m2!1sen!2sge!4v1740566594900!5m2!1sen!2sge"></iframe>
-      </div>
-      <Container fluid>
+      </Container>  <Container fluid>
         <div className='contact-info'>
           <ul>
             <li>
@@ -55,6 +51,10 @@ function AppContact() {
           </ul>
         </div>
       </Container>
+      <div className='google-map mt-5'>
+        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d744.4658044457617!2d44.767880757551495!3d41.72347032732096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d8b5d58817%3A0x5411de2d187da455!2s10%20Davit%20Gamrekeli%20St%2C%20T&#39;bilisi%200194!5e0!3m2!1sen!2sge!4v1740566594900!5m2!1sen!2sge"></iframe>
+      </div>
+    
     </section>
   );
 }

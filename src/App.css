@@ -346,6 +346,17 @@ textarea {
   margin: -3px 0 0 -6px;
 }
 
+.download {
+  cursor: pointer;
+
+}
+
+.download:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+  opacity: 80%;
+}
+
 .logo {
   width: 150px;
 }
