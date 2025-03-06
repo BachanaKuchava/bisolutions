@@ -447,7 +447,11 @@ textarea {
 #header .navbar-collapse a {
   color: #4d4d4d;
   position: relative;
+  font-size: 22px;
+  margin-left: 10px;
 }
+
+
 
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
@@ -1026,7 +1030,7 @@ textarea {
   }
 
   h1 {
-    font-size: 34px;
+    font-size: 34px;    
     margin: 0 0 15px;
   }
 
@@ -1054,6 +1058,7 @@ textarea {
 
   #header .navbar-collapse .navbar-nav {
     float: none;
+    margin-top: 10px;
   }
 
   #header .navbar-collapse .nav-item {
@@ -1109,7 +1114,7 @@ textarea {
   }
 
   #header .navbar-collapse .navbar-nav {
-    margin: 0;
+    margin-top: 10px;
   }
 
   .block {
@@ -1127,6 +1132,18 @@ textarea {
   .about-block .image {
     padding-bottom: 20px;
   }
+
+  .services-block .holder{
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 15px; 
+  }
+
+  .services-block .icon {
+    margin: unset;
+   }
 
   .about-block .features [class*="col-"] {
     padding-bottom: 30px;
@@ -1191,6 +1208,16 @@ textarea {
 
   .pricing-block {
     padding: 40px 0 20px;
+    margin-top: 50px;
+  }
+
+  .pricing-block .row>div {
+    margin-top: 20px;
+    border: 1px solid #12556b ;
+  }
+
+  .aboutUS-p {
+    padding: 20px;
   }
 
   .blog-block {
@@ -1231,5 +1258,11 @@ textarea {
   .contact-block .contact-info .fas {
     font-size: 26px;
     margin: 0;
+  }
+
+  #header .navbar-collapse a{
+    font-size: 18px;
+    margin-left: unset;
+    margin-top: 1px;
   }
 }
