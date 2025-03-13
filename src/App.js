@@ -14,6 +14,7 @@ import AppContact from './components/contact';
 import AppFooter from './components/footer';
 import StartUps from './pages/StartUps';
 import Layout from './pages/layout/Layout';
+import PricingPage from './pages/pricingPage/PricingPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
           <Route path='/' element={<Layout />} />
           <Route path='startup' element={<StartUps />} />
+          <Route path='pricingPage' element={<StartUps />} />
          
         {/* <StartUps/> */}
         </Routes>

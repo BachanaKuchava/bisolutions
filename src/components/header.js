@@ -61,7 +61,7 @@ function AppHeader() {
             <Nav.Link onClick={() => handleNavClick("about")}>About</Nav.Link>
             <Nav.Link onClick={() => handleNavClick("services")}>Services</Nav.Link>
             <Nav.Link onClick={() => handleNavClick("pricing")}>Pricing</Nav.Link>
-            <Nav.Link onClick={() => handleNavClick("blog")}>Blog</Nav.Link>
+            {/* <Nav.Link onClick={() => handleNavClick("blog")}>Blog</Nav.Link> */}
             <Nav.Link onClick={() => handleNavClick("contact")}>Contact</Nav.Link>
             <Link
               to="/startup"

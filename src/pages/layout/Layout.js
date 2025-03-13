@@ -41,9 +41,9 @@ function Layout() {
       <div id="pricing">
         <AppPricing />
       </div>
-      <div id="blog">
+      {/* <div id="blog">
         <AppBlog />
-      </div>
+      </div> */}
       <div id="contact">
         <AppContact />
       </div>
