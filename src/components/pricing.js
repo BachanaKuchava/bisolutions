@@ -8,14 +8,14 @@ const pricingData = [
     id: 2,
     plan: 'Basic Plan',
     price: '$1,500',
-    features: ['5-Page Custom Website', 'Mobile Responsive Design', 'SEO Optimized Structure', 'Free Hosting & Domain (1 Year)', 'Contact Form + Google Maps Integration', 'Social Media Integration', 'Support & Assistance (1 Month)' ],
+    features: ['5-Page Custom Website', 'Mobile Responsive Design', 'SEO Optimized Structure', 'Free Hosting & Domain (1 Year)', 'Contact Form + Google Maps Integration', 'Social Media Integration', 'Support & Assistance ' ],
     link: 'https://www.facebook.com'
   },
   {
     id: 1,
     plan: 'Premium',
     price: '$10,000',
-    features: ['Fully Custom Web or SaaS Solution', 'Custom Backend (API, CRM, ERP Integrations)', 'Multi-Language Support', 'AI Chatbot / Automation Integration', 'Enterprise-Level Security (Cloudflare, SSL, Firewall)', 'Dedicated DevOps & Hosting Support'],
+    features: ['Fully Custom Web or SaaS Solution', 'Custom Backend (API, CRM, ERP Integrations)', 'Multi-Language Support', 'AI Chatbot / Automation Integration', 'Enterprise-Level Security (Cloudflare, SSL, Firewall)', 'Dedicated DevOps & Hosting Support','Support & Assistance '],
     link: 'https://www.google.com'
   },
 
@@ -23,7 +23,7 @@ const pricingData = [
     id: 3,
     plan: 'Business Plan',
     price: '$4,000',
-    features: [' 20-Page Custom Website', 'UI/UX Design', 'Advanced SEO & Performance Optimization', 'Blog + Admin Dashboard', 'E-commerce Integration (Cart, Payments, Product Management)', 'Google Analytics & Meta Pixel Integration'],
+    features: [' 20-Page Custom Website', 'UI/UX Design', 'Advanced SEO & Performance Optimization', 'Blog + Admin Dashboard', 'E-commerce Integration ', 'Google Analytics & Meta Pixel Integration','Support & Assistance '],
     link: 'https://www.twitter.com'
   }
 ]

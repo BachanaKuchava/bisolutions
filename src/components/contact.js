@@ -26,11 +26,11 @@ function AppContact() {
           </Row>
           <Row>
             <Col sm={12}>
-              <Form.Control as="textarea" placeholder="Enter your contact message" required />
+              <Form.Control as="textarea" placeholder="Send your message" required />
             </Col>
           </Row>
           <div className='btn-holder'>
-            <Button type="submit">Submit</Button>
+            <Button type="submit">Send</Button>
           </div>
         </Form>
       </Container>  <Container fluid>
@@ -38,11 +38,11 @@ function AppContact() {
           <ul>
             <li>
               <i className="fas fa-envelope"></i>
-              BIsolutions@gmail.com
+              bisolutionsbis@gmail.com
             </li>
             <li>
               <i className="fas fa-phone"></i>
-              +995 0322-566-555
+              +995 599 38 32 23
             </li>
             <li>
               <i className="fas fa-map-marker-alt"></i>
