@@ -1043,6 +1043,12 @@ textarea {
     padding: 9px 35px;
   }
 
+   .startUp-block p  {
+        font-size: unset;
+   }
+   .startUp-block h2  {
+    font-size: 30px;
+}
   input[type=text],
   input[type=email],
   input[type=tel],
@@ -1085,10 +1091,19 @@ textarea {
   }
 }
 
+.navbar-startups {
+  display: none;
+}
 @media only screen and (max-width: 767px) {
   h2 {
     font-size: 20px;
   }
+  .navbar-startups {
+    display: block;
+    font-size: 19px !important;
+    margin-top: 10px !important;
+    color: #d10a0a !important;
+  } 
 
   h3 {
     font-size: 20px;
@@ -1265,4 +1280,8 @@ textarea {
     margin-left: unset;
     margin-top: 1px;
   }
+}
+
+.carousel-inner {
+  cursor: pointer;
 }

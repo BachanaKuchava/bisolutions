@@ -30,6 +30,7 @@ function AppHero() {
           {
             heroData.map(hero => {
               return (
+                
                 <Carousel.Item key={hero.id}>
                   <img
                     className="d-block w-100"

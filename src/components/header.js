@@ -3,29 +3,40 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/images/IB-Logo.png';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 function AppHeader() {
   const location = useLocation();
-  const hideNavLinks = location.pathname === '/startup';
+  const navigate = useNavigate();
   const [expanded, setExpanded] = useState(false);
   const navbarRef = useRef(null);
 
   // Close the navbar if a click is detected outside of it.
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (
-        expanded &&
-        navbarRef.current &&
-        !navbarRef.current.contains(event.target)
-      ) {
+      if (expanded && navbarRef.current && !navbarRef.current.contains(event.target)) {
         setExpanded(false);
       }
     };
-
     document.addEventListener('click', handleClickOutside);
     return () => document.removeEventListener('click', handleClickOutside);
   }, [expanded]);
+
+  // When a nav link is clicked, if you're not on the main page, navigate there with the hash.
+  // If already on the main page, scroll smoothly to the section.
+  const handleNavClick = (sectionId) => {
+    setExpanded(false);
+    if (location.pathname !== "/") {
+      // Navigate to the main page with the hash
+      navigate(`/#${sectionId}`);
+    } else {
+      // Already on the main page – scroll to the element with the matching id
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
 
   return (
     <Navbar
@@ -37,35 +48,29 @@ function AppHeader() {
       onToggle={(isExpanded) => setExpanded(isExpanded)}
     >
       <Container>
-        <Link to='/'>
+        <Link to="/">
           <Navbar.Brand>
             <img src={logo} className="logo" alt="Logo" />
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          {!hideNavLinks && (
-            <Nav className="me-auto">
-              <Nav.Link href="#home" onClick={() => setExpanded(false)}>
-                Home
-              </Nav.Link>
-              <Nav.Link href="#about" onClick={() => setExpanded(false)}>
-                About
-              </Nav.Link>
-              <Nav.Link href="#services" onClick={() => setExpanded(false)}>
-                Services
-              </Nav.Link>
-              <Nav.Link href="#pricing" onClick={() => setExpanded(false)}>
-                Pricing
-              </Nav.Link>
-              <Nav.Link href="#blog" onClick={() => setExpanded(false)}>
-                Blog
-              </Nav.Link>
-              <Nav.Link href="#contact" onClick={() => setExpanded(false)}>
-                Contact
-              </Nav.Link>
-            </Nav>
-          )}
+          {/* Always show nav links */}
+          <Nav className="me-auto">
+            <Nav.Link onClick={() => handleNavClick("home")}>Home</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("about")}>About</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("services")}>Services</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("pricing")}>Pricing</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("blog")}>Blog</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("contact")}>Contact</Nav.Link>
+            <Link
+              to="/startup"
+              className="navbar-startups"
+              onClick={() => setExpanded(false)}
+            >
+              Startup
+            </Link>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
