@@ -26,17 +26,20 @@ function AppHeader() {
   // If already on the main page, scroll smoothly to the section.
   const handleNavClick = (sectionId) => {
     setExpanded(false);
+    if (sectionId === "Faq") {
+      navigate("/faq");
+      return;
+    }
     if (location.pathname !== "/") {
-      // Navigate to the main page with the hash
       navigate(`/#${sectionId}`);
     } else {
-      // Already on the main page – scroll to the element with the matching id
       const element = document.getElementById(sectionId);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
     }
   };
+  
 
   return (
     <Navbar
@@ -63,6 +66,9 @@ function AppHeader() {
             <Nav.Link onClick={() => handleNavClick("pricing")}>Pricing</Nav.Link>
             {/* <Nav.Link onClick={() => handleNavClick("blog")}>Blog</Nav.Link> */}
             <Nav.Link onClick={() => handleNavClick("contact")}>Contact</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("Faq")}>FAQ</Nav.Link>
+
+
             <Link
               to="/startup"
               className="navbar-startups"

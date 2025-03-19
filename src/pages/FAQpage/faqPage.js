@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-
+import './faqPageStyle.css';
+import { Link } from "react-router-dom";
 
 
 function Faq() {
@@ -289,22 +290,23 @@ function Faq() {
                         <div className="text-center">
                           <div className="h6 fw-bolder">Have more questions?</div>
                           <p className="text-muted mb-4">
-                            Contact us at <br />
+                            Email us at <br />
                             <a href="#!">bisolutionsbis@gmail.com</a>
                           </p>
-                          <div className="h6 fw-bolder">Follow us</div>
+                          {/* <div className="h6 fw-bolder">Follow us</div>
                           <a className="fs-5 px-2 link-dark" href="#!">
-                            <i className="bi-twitter" />
+                            <i className="bi-twitter faq-icons" />
                           </a>
                           <a className="fs-5 px-2 link-dark" href="#!">
-                            <i className="bi-facebook" />
+                            <i className="bi-facebook faq-icons" />
                           </a>
                           <a className="fs-5 px-2 link-dark" href="#!">
-                            <i className="bi-linkedin" />
+                            <i className="bi-linkedin faq-icons" />
                           </a>
                           <a className="fs-5 px-2 link-dark" href="#!">
-                            <i className="bi-youtube" />
-                          </a>
+                            <i className="bi-youtube faq-icons" />
+                          </a> */}
+                         <button type="button" class="btn btn-primary">(+995) 599-38-32-23 </button>
                         </div>
                       </div>
                     </div>
