@@ -114,7 +114,7 @@ function Faq() {
               <div className="row gx-5">
                 <div className="col-xl-8">
                   {/* FAQ Accordion 1 */}
-                  <h2 className="fw-bolder mb-3">Account &amp; Billing</h2>
+                  <h2 className="fw-bolder mb-3">Price &amp; Time &amp; Support</h2>
                   <div className="accordion mb-5" id="accordionExample">
                     <div className="accordion-item">
                       <h3 className="accordion-header" id="headingOne">
@@ -126,7 +126,7 @@ function Faq() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Accordion Item #1
+                          How long does it take to build a website or app?
                         </button>
                       </h3>
                       <div
@@ -136,11 +136,10 @@ function Faq() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default,
-                          until the collapse plugin adds the appropriate classes that we use to style each element.
-                          You can modify any of this with custom CSS or overriding our default variables. It's also
-                          worth noting that just about any HTML can go within the <code>.accordion-body</code>, though
-                          the transition does limit overflow.
+                        The development time varies depending on the complexity of the project.
+                         <strong>A simple website</strong> may take <code>2-4 weeks</code>, while a <strong>complex web or mobile application</strong> 
+                     can take <code>several months</code>. We provide a detailed timeline after discussing your
+                           project requirements.
                         </div>
                       </div>
                     </div>
@@ -154,7 +153,7 @@ function Faq() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Accordion Item #2
+                          How much does it cost to develop a website or mobile app?
                         </button>
                       </h3>
                       <div
@@ -164,10 +163,9 @@ function Faq() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                          collapse plugin adds the appropriate classes that we use to style each element. These classes
-                          control the overall appearance, as well as the showing and hiding via CSS transitions.
-                          <code>.accordion-body</code> though the transition does limit overflow.
+                        The cost depends on various factors such as <code>features, design complexity,
+                         and required integrations.</code> Contact us for a free consultation, and we'll
+                          provide a custom quote based on your needs.
                         </div>
                       </div>
                     </div>
@@ -181,7 +179,7 @@ function Faq() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Accordion Item #3
+                           Do you provide website maintenance and support?
                         </button>
                       </h3>
                       <div
@@ -191,15 +189,14 @@ function Faq() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                          collapse plugin adds the appropriate classes that we use to style each element.
-                          <code>.accordion-body</code> though the transition does limit overflow.
+                        Yes! We offer website and app maintenance, security updates,
+                         bug fixes, and ongoing support to ensure your digital platforms run smoothly.
                         </div>
                       </div>
                     </div>
                   </div>
                   {/* FAQ Accordion 2 */}
-                  <h2 className="fw-bolder mb-3">Website Issues</h2>
+                  <h2 className="fw-bolder mb-3">More Questions</h2>
                   <div className="accordion mb-5 mb-xl-0" id="accordionExample2">
                     <div className="accordion-item">
                       <h3 className="accordion-header" id="headingOne2">
@@ -211,7 +208,7 @@ function Faq() {
                           aria-expanded="true"
                           aria-controls="collapseOne2"
                         >
-                          Accordion Item #1
+                           Can you help with e-commerce website development?
                         </button>
                       </h3>
                       <div
@@ -221,11 +218,9 @@ function Faq() {
                         data-bs-parent="#accordionExample2"
                       >
                         <div className="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                          collapse plugin adds the appropriate classes that we use to style each element. You can modify
-                          any of this with custom CSS or overriding our default variables. It's also worth noting that
-                          just about any HTML can go within the <code>.accordion-body</code>, though the transition does
-                          limit overflow.
+                        Absolutely! We build high-performance e-commerce
+                         websites and apps with features like <code>secure payments,
+                          product management, and order tracking.</code>
                         </div>
                       </div>
                     </div>
@@ -239,7 +234,7 @@ function Faq() {
                           aria-expanded="false"
                           aria-controls="collapseTwo2"
                         >
-                          Accordion Item #2
+                          Do you provide custom software solutions for businesses?
                         </button>
                       </h3>
                       <div
@@ -249,9 +244,8 @@ function Faq() {
                         data-bs-parent="#accordionExample2"
                       >
                         <div className="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                          collapse plugin adds the appropriate classes that we use to style each element.
-                          <code>.accordion-body</code> though the transition does limit overflow.
+                        Yes! We develop custom software solutions for businesses in various industries, <code>
+                         including finance, healthcare, logistics, and retail.</code>
                         </div>
                       </div>
                     </div>
@@ -265,7 +259,7 @@ function Faq() {
                           aria-expanded="false"
                           aria-controls="collapseThree2"
                         >
-                          Accordion Item #3
+                          Can you integrate third-party services like payment gateways or CRMs?
                         </button>
                       </h3>
                       <div
@@ -275,9 +269,8 @@ function Faq() {
                         data-bs-parent="#accordionExample2"
                       >
                         <div className="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                          collapse plugin adds the appropriate classes that we use to style each element.
-                          <code>.accordion-body</code> though the transition does limit overflow.
+                        Yes! We integrate various third-party services, including payment gateways (<code>Google-Pay, PayPal, etc.</code>), 
+                        <strong>CRM systems, ERP software, and APIs to enhance your business operations.</strong>
                         </div>
                       </div>
                     </div>
@@ -293,8 +286,10 @@ function Faq() {
                             Email us at <br />
                             <a href="#!">bisolutionsbis@gmail.com</a>
                           </p>
-                          {/* <div className="h6 fw-bolder">Follow us</div>
-                          <a className="fs-5 px-2 link-dark" href="#!">
+                          {/* <div className="h6 fw-bolder">Follow us</div> */}
+                          <div className="h6 fw-bolder">Or Call Us</div>
+
+                          {/* <a className="fs-5 px-2 link-dark" href="#!">
                             <i className="bi-twitter faq-icons" />
                           </a>
                           <a className="fs-5 px-2 link-dark" href="#!">
@@ -306,7 +301,7 @@ function Faq() {
                           <a className="fs-5 px-2 link-dark" href="#!">
                             <i className="bi-youtube faq-icons" />
                           </a> */}
-                         <button type="button" class="btn btn-primary">(+995) 599-38-32-23 </button>
+                         <div type="" class="">(+995) 599-38-32-23 </div>
                         </div>
                       </div>
                     </div>
