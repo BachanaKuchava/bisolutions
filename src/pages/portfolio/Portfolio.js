@@ -13,7 +13,7 @@ function Portfolio() {
       <main className="flex-shrink-0">
         {/* Navigation */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container px-5">
+          <div className="container px-3">
             <a className="navbar-brand" href="/">Start Bootstrap</a>
             <button
               className="navbar-toggler"
@@ -58,118 +58,115 @@ function Portfolio() {
 
         {/* Page Content */}
         <section className="py-5">
-          <div className="container px-5 my-5">
+          <div className="container px-3 my-5">
             <div className="text-center mb-5">
               <h1 className="fw-bolder">Our Work</h1>
               <p className="lead fw-normal text-muted mb-0">Company portfolio</p>
             </div>
-            <div className="row gx-5">
+            <div className="row row-cols-1 row-cols-md-2 g-4">
               {/* Project 1 Card */}
-              <div className="col-lg-6 mb-4">
+              <div className="col">
                 <div className="card h-100">
-                  <img className="card-img-top" src={xsIgrace} alt="Project Alpha" />
-                  <div className="card-body">
+                  <img className="card-img-top img-fluid mx-auto d-block" src={xsIgrace} alt="Project Alpha" />
+                  <div className="card-body text-center">
                     <h3 className="card-title">
                       xsigrace.si <code>Ecommerce</code>
                     </h3>
                     <p className="card-text text-secondary">
-                      XS Igrače is a Slovenian toy company with an advanced e-commerce platform that offers automated delivery and tracking,
-                      an AI-integrated admin panel, and Photoshop integration for dynamic product displays. To enhance customer convenience,
-                      the platform supports multiple payment methods, including Slovenian bank payments, Google Pay, and PayPal.
+                      XS Igrače is a Slovenian toy company with an advanced e-commerce platform offering automated delivery and tracking,
+                      an AI-integrated admin panel, and Photoshop integration. Payment options include Slovenian bank, Google Pay, and PayPal.
                     </p>
                     <a href="https://xsigrace.si/en" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
-                      https://xsigrace.si/en
+                      Visit Website
                     </a>
                   </div>
                 </div>
               </div>
 
               {/* Project 2 Card */}
-              <div className="col-lg-6 mb-4">
+              <div className="col">
                 <div className="card h-100">
-                  <img className="card-img-top" src={spNews} alt="Project Beta" />
-                  <div className="card-body">
+                  <img className="card-img-top img-fluid mx-auto d-block" src={spNews} alt="Project Beta" />
+                  <div className="card-body text-center">
                     <h3 className="card-title">
                       spnews.io <code>News|Radio</code>
                     </h3>
                     <p className="card-text text-secondary">
-                      SP News is a Georgian news website that offers a comprehensive blog system and live radio streaming, providing users with up-to-date news and engaging content.
-                      The platform features a modern admin panel, streamlining content management and enhancing user experience.
+                      SP News is a Georgian news website with a comprehensive blog system and live radio streaming.
+                      Its modern admin panel streamlines content management and enhances user experience.
                     </p>
                     <a href="https://spnews.io/ge" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
-                      https://spnews.io/ge
+                      Visit Website
                     </a>
                   </div>
                 </div>
               </div>
 
               {/* Project 3 Card */}
-              <div className="col-lg-6 mb-4">
+              <div className="col">
                 <div className="card h-100">
-                  <img className="card-img-top" src={Ammo} alt="Project Gamma" />
-                  <div className="card-body">
+                  <img className="card-img-top img-fluid mx-auto d-block" src={Ammo} alt="Project Gamma" />
+                  <div className="card-body text-center">
                     <h3 className="card-title">
                       ammoexchange.com <code>Trading Platform</code>
                     </h3>
-                    <p className="card-text">
-                      A dynamic project that blends creative ideas with modern technology for interactive experiences.
-                    </p>
+                    <p className="card-text text-secondary">
+                    U.S. Ammo Exchange (USAE) is an innovative trading platform revolutionizing the U.S. ammunition industry. It connects the world's largest suppliers directly to consumers, eliminating middlemen and ensuring consistent availability without pre-set prices. The platform allows users to safely and securely buy, hold, and trade ammunition, providing a comprehensive marketplace for legally allowed ammunition buyers and sellers.                    </p>
                     <a href="https://www.ammoexchange.com/" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
-                      https://www.ammoexchange.com/
+                      Visit Website
                     </a>
                   </div>
                 </div>
               </div>
 
               {/* Project 4 Card */}
-              <div className="col-lg-6 mb-4">
+              <div className="col">
                 <div className="card h-100">
-                  <img className="card-img-top" src={SolarValley} alt="Project Delta" />
-                  <div className="card-body">
+                  <img className="card-img-top img-fluid mx-auto d-block" src={Guda} alt="Project Gudabooks" />
+                  <div className="card-body text-center">
                     <h3 className="card-title">
-                      solarvalley.ge <code>Company Website</code>
+                      gudabooks.ge <code>Ecommerce</code>
                     </h3>
-                    <p className="card-text">
-                      Focused on sustainable energy, this project emphasizes eco-friendly design and robust functionality.
-                    </p>
-                    <a href="https://solarvalley.ge/ka/" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
-                      https://solarvalley.ge/ka/
+                    <p className="card-text text-secondary">
+                    Gudabooks.ge is an online bookstore offering over 200 audiobooks and 1,000 e-books across genres like classical and contemporary literature, biographies, and fairy tales. Users can enjoy these books via the "Guda" app on Android and iOS devices.                     </p>
+                    <a href="https://gudabooks.ge/" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
+                      Visit Website
                     </a>
                   </div>
                 </div>
               </div>
+          
 
               {/* Project 5 Card */}
-              <div className="col-lg-6 mb-4">
+              <div className="col">
                 <div className="card h-100">
-                  <img className="card-img-top" src={Guda} alt="Project Gudabooks" />
-                  <div className="card-body">
+                  <img className="card-img-top img-fluid mx-auto d-block" src={SolarValley} alt="Project Delta" />
+                  <div className="card-body text-center">
                     <h3 className="card-title">
-                      gudabooks.ge <code>Ecommerce</code>
+                      solarvalley.ge <code>Company Website</code>
                     </h3>
-                    <p className="card-text">
-                      Gudabooks offers a seamless e-commerce experience for book lovers, combining modern design with efficient functionality.
-                    </p>
-                    <a href="https://gudabooks.ge/" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
-                      https://gudabooks.ge/
+                    <p className="card-text text-secondary">
+                    ​Solar Valley is a Georgian company specializing in the design, installation, and maintenance of solar energy systems. They offer a range of products and services, including photovoltaic panels, inverters, and energy storage solutions, tailored to both residential and commercial clients. Their mission is to promote sustainable energy practices in Georgia by providing high-quality, eco-friendly solutions that reduce energy costs and environmental impact.                    </p>
+                    <a href="https://solarvalley.ge/ka/" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
+                      Visit Website
                     </a>
                   </div>
                 </div>
               </div>
 
               {/* Project 6 Card */}
-              <div className="col-lg-6 mb-4">
+              <div className="col">
                 <div className="card h-100">
-                  <img className="card-img-top" src={Translate} alt="Project Translate" />
-                  <div className="card-body">
+                  <img className="card-img-top img-fluid mx-auto d-block" src={Translate} alt="Project Translate" />
+                  <div className="card-body text-center">
                     <h3 className="card-title">
                       translate.ge <code>Translation App</code>
                     </h3>
-                    <p className="card-text">
+                    <p className="card-text text-secondary">
                       Translate.ge provides a modern, user-friendly translation service designed to break language barriers and facilitate communication.
                     </p>
                     <a href="https://translate.ge/" target="_blank" rel="noreferrer" className="btn btn-primary stretched-link">
-                      https://translate.ge/
+                      Visit Website
                     </a>
                   </div>
                 </div>
@@ -180,7 +177,7 @@ function Portfolio() {
 
         {/* Contact Us Section Button */}
         <section className="py-5 bg-light">
-          <div className="container px-5 my-5">
+          <div className="container px-3 my-5 text-center">
             <h2 className="display-4 fw-bolder mb-4">Let's build something together</h2>
             <a className="btn btn-lg btn-primary" href="/#contact">
               Contact us
