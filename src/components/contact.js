@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 function AppContact() {
+
   return (
     <section id="contact" className="block contact-block">
       <Container fluid>

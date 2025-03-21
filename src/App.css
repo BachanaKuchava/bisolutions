@@ -447,7 +447,7 @@ textarea {
 #header .navbar-collapse a {
   color: #4d4d4d;
   position: relative;
-  font-size: 22px;
+  font-size: 20px;
   margin-left: 10px;
 }
 
@@ -551,6 +551,22 @@ textarea {
   background-color: #f64b4b;
   -webkit-transition: width 0.3s linear;
   transition: width 0.3s linear;
+}
+
+.portfolio-item:hover {
+      transform: scale(1.05);
+      opacity: 80%;
+      transition: 0.5s;
+}
+
+.portfolio img{
+    width: 600px !important;
+    height: 400px !important;
+    object-fit: contain;
+}
+
+.text-custom {
+  color: #12556b;
 }
 
 .services-block .icon {

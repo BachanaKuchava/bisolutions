@@ -1,3 +1,4 @@
+// Layout.js
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import AppHero from '../../components/hero';
@@ -17,7 +18,7 @@ function Layout() {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
-        // Remove the hash from the URL after scrolling
+        // Remove the hash from the URL after scrolling for a cleaner URL.
         window.history.replaceState(null, '', location.pathname);
       }
     }

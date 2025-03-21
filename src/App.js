@@ -16,6 +16,7 @@ import StartUps from './pages/StartUps';
 import Layout from './pages/layout/Layout';
 import PricingPage from './pages/pricingPage/PricingPage';
 import Faq from './pages/FAQpage/faqPage';
+import Portfolio from './pages/portfolio/Portfolio';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/startup' element={<StartUps />} />
           <Route path='pricingPage' element={<StartUps />} />
           <Route path='/faq' element={<Faq />} />
+          <Route path='/portfolio' element={<Portfolio />} />
          
         {/* <StartUps/> */}
         </Routes>

@@ -1,3 +1,4 @@
+// AppHeader.js
 import React, { useState, useRef, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -22,24 +23,28 @@ function AppHeader() {
     return () => document.removeEventListener('click', handleClickOutside);
   }, [expanded]);
 
-  // When a nav link is clicked, if you're not on the main page, navigate there with the hash.
-  // If already on the main page, scroll smoothly to the section.
+  // Navigation handler: navigates to the proper section
   const handleNavClick = (sectionId) => {
     setExpanded(false);
     if (sectionId === "Faq") {
       navigate("/faq");
       return;
     }
+    if (sectionId === "portfolio") {
+      navigate("/portfolio");
+      return;
+    }
     if (location.pathname !== "/") {
+      // If not on the homepage, navigate there with the hash.
       navigate(`/#${sectionId}`);
     } else {
+      // If already on the homepage, smoothly scroll to the section.
       const element = document.getElementById(sectionId);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
     }
   };
-  
 
   return (
     <Navbar
@@ -67,8 +72,7 @@ function AppHeader() {
             {/* <Nav.Link onClick={() => handleNavClick("blog")}>Blog</Nav.Link> */}
             <Nav.Link onClick={() => handleNavClick("contact")}>Contact</Nav.Link>
             <Nav.Link onClick={() => handleNavClick("Faq")}>FAQ</Nav.Link>
-
-
+            <Nav.Link onClick={() => handleNavClick("portfolio")}>Portfolio</Nav.Link>
             <Link
               to="/startup"
               className="navbar-startups"
